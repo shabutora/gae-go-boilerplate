@@ -1,0 +1,12 @@
+hash: 008e143877b738d233d9c5cef7cecf187977f9bb64f0e774ceb42562a95131c9
+updated: 2017-08-18T13:15:10.013350213+09:00
+imports:
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: google.golang.org/api
+  version: ed10e890a8366167a7ce33fac2b12447987bcb1c
+  subpackages:
+  - compute/v1
+- name: google.golang.org/appengine
+  version: 150dc57a1b433e64154302bdc40b6bb8aefa313a
+testImports: []

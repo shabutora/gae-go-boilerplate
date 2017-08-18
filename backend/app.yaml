@@ -1,0 +1,21 @@
+runtime: go
+api_version: go1.8
+threadsafe: yes
+
+default_expiration: 1d
+
+inbound_services:
+- warmup
+
+handlers:
+
+- url: /.*
+  script: _go_app
+  secure: always
+
+nobuild_files:
+- vendor
+
+skip_files:
+- ^(.*/)?.*\.DS_Store$
+- vendor/.*$

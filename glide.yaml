@@ -1,2 +1,9 @@
 package: github.com/shabutora/gae-go-boilerplate
-import: []
+import:
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: google.golang.org/appengine
+  version: ^1.0.0
+- package: google.golang.org/api
+  subpackages:
+  - compute/v1
